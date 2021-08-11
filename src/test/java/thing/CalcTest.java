@@ -11,6 +11,11 @@ class CalcTest {
 		 Calc c = new Calc();
 		    assertEquals(5, c.add(2, 3), "Failure!");
 	}
+	@Test
+	void testSubtract() {
+		Calc c = new Calc();
+		assertEquals(2, c.subtract(5, 3), "Failure!");
+	}
 	
 
 }
